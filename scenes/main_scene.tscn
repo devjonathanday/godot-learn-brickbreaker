@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://ccd73whrg76mh"]
+
+[ext_resource type="PackedScene" uid="uid://dfqqn7e4m0l87" path="res://scenes/ball.tscn" id="1_05gwx"]
+[ext_resource type="PackedScene" uid="uid://bvkd8b2yylm47" path="res://scenes/floor.tscn" id="2_we72k"]
+[ext_resource type="PhysicsMaterial" uid="uid://cobidxjql4ygs" path="res://physics_materials/bouncy.tres" id="3_uynkl"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Ball [RigidBody2D]" parent="." instance=ExtResource("1_05gwx")]
+position = Vector2(146, 282)
+
+[node name="Ball [RigidBody2D]2" parent="." instance=ExtResource("1_05gwx")]
+position = Vector2(387, 132)
+
+[node name="Ball [RigidBody2D]3" parent="." instance=ExtResource("1_05gwx")]
+position = Vector2(642, 162)
+
+[node name="Ball [RigidBody2D]4" parent="." instance=ExtResource("1_05gwx")]
+position = Vector2(923, 274)
+
+[node name="Floor [StaticBody2D]" parent="." instance=ExtResource("2_we72k")]
+position = Vector2(104, 523)
+rotation = 0.139081
+scale = Vector2(6.786, 1)
+physics_material_override = ExtResource("3_uynkl")
+
+[node name="Floor [StaticBody2D]2" parent="." instance=ExtResource("2_we72k")]
+position = Vector2(969, 523)
+rotation = -0.139626
+scale = Vector2(6.786, 1)
