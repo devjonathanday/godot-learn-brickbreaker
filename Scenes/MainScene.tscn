@@ -1,0 +1,377 @@
+[gd_scene load_steps=5 format=3 uid="uid://ccd73whrg76mh"]
+
+[ext_resource type="PackedScene" uid="uid://2mymql4qfr1l" path="res://Prefabs/Player.tscn" id="1_jwaxj"]
+[ext_resource type="PackedScene" uid="uid://dehoxj3rll7dj" path="res://Prefabs/Brick.tscn" id="2_e4sbt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t6psu"]
+size = Vector2(32, 432)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_er4i3"]
+size = Vector2(640, 32)
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(-3, 0)
+
+[node name="BrickRow" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 16)
+
+[node name="Brick2" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 16)
+
+[node name="Brick3" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 16)
+
+[node name="Brick4" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 16)
+
+[node name="Brick5" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 16)
+
+[node name="Brick6" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 16)
+
+[node name="Brick7" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 16)
+
+[node name="Brick8" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 16)
+
+[node name="Brick9" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 16)
+
+[node name="Brick10" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 16)
+
+[node name="Brick11" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 16)
+
+[node name="Brick12" parent="BrickRow" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 16)
+
+[node name="BrickRow2" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 32)
+
+[node name="Brick2" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 32)
+
+[node name="Brick3" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 32)
+
+[node name="Brick4" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 32)
+
+[node name="Brick5" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 32)
+
+[node name="Brick6" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 32)
+
+[node name="Brick7" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 32)
+
+[node name="Brick8" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 32)
+
+[node name="Brick9" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 32)
+
+[node name="Brick10" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 32)
+
+[node name="Brick11" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 32)
+
+[node name="Brick12" parent="BrickRow2" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 32)
+
+[node name="BrickRow3" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 48)
+
+[node name="Brick2" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 48)
+
+[node name="Brick3" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 48)
+
+[node name="Brick4" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 48)
+
+[node name="Brick5" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 48)
+
+[node name="Brick6" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 48)
+
+[node name="Brick7" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 48)
+
+[node name="Brick8" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 48)
+
+[node name="Brick9" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 48)
+
+[node name="Brick10" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 48)
+
+[node name="Brick11" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 48)
+
+[node name="Brick12" parent="BrickRow3" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 48)
+
+[node name="BrickRow4" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 64)
+
+[node name="Brick2" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 64)
+
+[node name="Brick3" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 64)
+
+[node name="Brick4" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 64)
+
+[node name="Brick5" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 64)
+
+[node name="Brick6" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 64)
+
+[node name="Brick7" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 64)
+
+[node name="Brick8" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 64)
+
+[node name="Brick9" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 64)
+
+[node name="Brick10" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 64)
+
+[node name="Brick11" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 64)
+
+[node name="Brick12" parent="BrickRow4" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 64)
+
+[node name="BrickRow5" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 80)
+
+[node name="Brick2" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 80)
+
+[node name="Brick3" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 80)
+
+[node name="Brick4" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 80)
+
+[node name="Brick5" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 80)
+
+[node name="Brick6" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 80)
+
+[node name="Brick7" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 80)
+
+[node name="Brick8" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 80)
+
+[node name="Brick9" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 80)
+
+[node name="Brick10" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 80)
+
+[node name="Brick11" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 80)
+
+[node name="Brick12" parent="BrickRow5" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 80)
+
+[node name="BrickRow6" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 96)
+
+[node name="Brick2" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 96)
+
+[node name="Brick3" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 96)
+
+[node name="Brick4" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 96)
+
+[node name="Brick5" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 96)
+
+[node name="Brick6" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 96)
+
+[node name="Brick7" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 96)
+
+[node name="Brick8" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 96)
+
+[node name="Brick9" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 96)
+
+[node name="Brick10" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 96)
+
+[node name="Brick11" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 96)
+
+[node name="Brick12" parent="BrickRow6" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 96)
+
+[node name="BrickRow7" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 112)
+
+[node name="Brick2" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 112)
+
+[node name="Brick3" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 112)
+
+[node name="Brick4" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 112)
+
+[node name="Brick5" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 112)
+
+[node name="Brick6" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 112)
+
+[node name="Brick7" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 112)
+
+[node name="Brick8" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 112)
+
+[node name="Brick9" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 112)
+
+[node name="Brick10" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 112)
+
+[node name="Brick11" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 112)
+
+[node name="Brick12" parent="BrickRow7" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 112)
+
+[node name="BrickRow8" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 128)
+
+[node name="Brick2" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 128)
+
+[node name="Brick3" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 128)
+
+[node name="Brick4" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 128)
+
+[node name="Brick5" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 128)
+
+[node name="Brick6" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 128)
+
+[node name="Brick7" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 128)
+
+[node name="Brick8" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 128)
+
+[node name="Brick9" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 128)
+
+[node name="Brick10" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 128)
+
+[node name="Brick11" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 128)
+
+[node name="Brick12" parent="BrickRow8" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 128)
+
+[node name="BrickRow9" type="Node" parent="."]
+
+[node name="Brick" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(144, 144)
+
+[node name="Brick2" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(176, 144)
+
+[node name="Brick3" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(208, 144)
+
+[node name="Brick4" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(240, 144)
+
+[node name="Brick5" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(272, 144)
+
+[node name="Brick6" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(304, 144)
+
+[node name="Brick7" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(336, 144)
+
+[node name="Brick8" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(368, 144)
+
+[node name="Brick9" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(400, 144)
+
+[node name="Brick10" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(432, 144)
+
+[node name="Brick11" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(464, 144)
+
+[node name="Brick12" parent="BrickRow9" instance=ExtResource("2_e4sbt")]
+position = Vector2(496, 144)
+
+[node name="Player" parent="." instance=ExtResource("1_jwaxj")]
+position = Vector2(321, 336)
+
+[node name="LeftWall" type="StaticBody2D" parent="."]
+position = Vector2(-15, 192)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LeftWall"]
+shape = SubResource("RectangleShape2D_t6psu")
+
+[node name="RightWall" type="StaticBody2D" parent="."]
+position = Vector2(657, 192)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RightWall"]
+shape = SubResource("RectangleShape2D_t6psu")
+
+[node name="TopWall" type="StaticBody2D" parent="."]
+position = Vector2(321, 0)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TopWall"]
+position = Vector2(0, -16)
+shape = SubResource("RectangleShape2D_er4i3")

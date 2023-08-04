@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dcb05r6ao1np4"
-path="res://.godot/imported/Ball.png-4e6e58f62343d577c3d22d908457c6a4.ctex"
+uid="uid://iqfar1wyop8j"
+path="res://.godot/imported/BrickSheet.png-51ed535407fa61c92aa883ae9fcd0462.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Ball.png"
-dest_files=["res://.godot/imported/Ball.png-4e6e58f62343d577c3d22d908457c6a4.ctex"]
+source_file="res://Sprites/BrickSheet.png"
+dest_files=["res://.godot/imported/BrickSheet.png-51ed535407fa61c92aa883ae9fcd0462.ctex"]
 
 [params]
 

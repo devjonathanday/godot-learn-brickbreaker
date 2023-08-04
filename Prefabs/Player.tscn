@@ -1,0 +1,24 @@
+[gd_scene load_steps=6 format=3 uid="uid://2mymql4qfr1l"]
+
+[ext_resource type="PhysicsMaterial" uid="uid://bj2a8pw57axj5" path="res://PhysicsMaterials/Bouncy.tres" id="1_2omis"]
+[ext_resource type="Script" path="res://Scripts/Player.cs" id="1_ig1oc"]
+[ext_resource type="Texture2D" uid="uid://b7tycletbquul" path="res://Sprites/Player.png" id="2_o3vl6"]
+[ext_resource type="PackedScene" uid="uid://pdgxywiwc4os" path="res://Prefabs/Ball.tscn" id="3_vjktp"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yis7a"]
+radius = 8.0
+height = 64.0
+
+[node name="Player" type="StaticBody2D"]
+physics_material_override = ExtResource("1_2omis")
+script = ExtResource("1_ig1oc")
+BallScene = ExtResource("3_vjktp")
+BallSpawnOffset = -16.0
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_o3vl6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_yis7a")

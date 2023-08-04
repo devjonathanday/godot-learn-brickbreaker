@@ -1,0 +1,28 @@
+[gd_scene load_steps=5 format=3 uid="uid://pdgxywiwc4os"]
+
+[ext_resource type="Texture2D" uid="uid://dcb05r6ao1np4" path="res://Sprites/Ball.png" id="1_7kilf"]
+[ext_resource type="Script" path="res://Scripts/Ball.cs" id="1_dsucx"]
+[ext_resource type="PhysicsMaterial" uid="uid://bj2a8pw57axj5" path="res://PhysicsMaterials/Bouncy.tres" id="1_ovufs"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kiu20"]
+
+[node name="Ball (Rigidbody2D)" type="RigidBody2D"]
+mass = 0.01
+physics_material_override = ExtResource("1_ovufs")
+gravity_scale = 0.0
+max_contacts_reported = 4
+contact_monitor = true
+lock_rotation = true
+linear_damp_mode = 1
+script = ExtResource("1_dsucx")
+StartingVelocity = Vector2(1, -1)
+Speed = 200.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7kilf")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.6, 0.6)
+shape = SubResource("CircleShape2D_kiu20")
+
+[connection signal="body_entered" from="." to="." method="OnBodyEntered"]
